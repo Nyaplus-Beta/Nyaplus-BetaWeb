@@ -15,7 +15,7 @@ page{
     animation: c 10s infinite;
 }
 #x{
-    background-color:red;
+    background-color: #ffe545;
     animation: x 10s infinite;
 }
 #q
