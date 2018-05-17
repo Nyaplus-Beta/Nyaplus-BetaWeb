@@ -1,0 +1,55 @@
+<!DOC TYPE html>
+
+
+
+<html>
+<head>
+<meta charset="utf-8">
+	<title>哔哩哔哩 (゜-゜)つロ 干杯~-bilibili</title>
+	<style>
+		*{margin: 0;padding: 0;}
+		.top{width: 100%;height: 180px;background:red;}
+		.top .a{width:100%;height: 38px;background: blue;}
+		.top .a .b{width: 1000px;height: 38px;background: green;margin: 0 auto;}
+						/*自动外边距*/
+		.top .a .b ul li{width: 50px;height: 38px; border:1px solid #000;/*边框 边框粗细 边框类型 边框颜色*/
+							float: left;/*左浮动*/list-style: none;/*取消无序列表小圆点*/ 
+							line-height: 38px;/*上下居中*/text-align: center;/*左右居中*/
+							font-size: 16px;font-family: 微软雅黑;font-weight: 600;/*字体类型粗细大小*/}
+							
+		.top .a .b ul li:hover{background: blue;/*height: 100px;font-size: 50;*/} /*伪类*/
+		
+		.top .a .b ul li a{text-decoration: none;/*取消下滑线*/width: 50px;height: 38px;
+		display: block;}
+	/*超连接标签 a标签*/
+	/*行间元素 块级元素*/
+	
+	/*.top .a .b ul.left{float: left;}
+	.top .a .b ul.right{float: right;}
+	*/
+	
+	</style>
+</head>
+<body>
+	<div class="top">
+		<div class="a">
+			<div class="b">
+				<ul style="float: left">
+					<li><a href="#">1</a></li>
+					<li><a href="#">2</a></li>
+					<li><a href="#">3</a></li>
+					<li><a href="#">4</a></li> 
+					<li><a href="#">5</a></li> 
+					<li><a href="#">6</a></li>					
+				</ul>
+				
+				<ul style="float: right">
+					<li><a href="#">7</a></li> 
+					<li><a href="#">8</a></li> 
+					<li><a href="#">9</a></li> 
+				</ul>
+			</div>
+		</div>
+	</div>
+</body>
+</html>
